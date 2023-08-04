@@ -1,0 +1,281 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12%;
+    color: #f1f1f1;
+    height: 88px;
+    width: 100%;
+}
+
+
+
+.nav_brand h3 {
+    font-size: 1.5rem;
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav_items li a{
+    font-size: 1.5rem;
+}
+
+/* Header */
+.header_container {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(6, 135, 222);
+    /* border-radius: 0 0 25% 25%; */
+    border-radius: 0 0 20% 20%;
+}
+
+/* Hero */
+
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.hero_details {
+    width: 100%;
+    color: #f1f1f1;
+}
+
+.hero_title h1 {
+    font-size: 3.5rem;
+    margin: 2.5rem 0;
+}
+
+.hero_description  {
+    margin: 2.5rem 0 ;
+}
+
+.hero_btn {
+    width: 20rem;
+}
+
+.hero_btn a {
+    width: 100%;
+    background-color: #f1f1f1;
+    color: rgb(6, 135, 222);
+    padding: 10px 15px;
+    font-size: 1.3rem;
+}
+
+.hero_img {
+    width: 100%;
+}
+
+/* About */
+
+.about_section {
+    top: -13.5rem;
+    position: relative;
+    background-color: #fff;
+    border-radius: 15% 15% 0 0;
+    height: 70vh;
+    padding: 5rem 0;
+}
+
+.about_section .sectionTitle {
+    margin: 0;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.companies img {
+    height: 8rem;
+    width: 9rem;
+}
+
+.companies img:nth-child(2) {
+    height: 10rem;
+    width: 10rem;
+}
+
+.companies img:nth-child(4) {
+    height: 4rem;
+    width: 7rem;
+}
+
+.about_details_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.about_details .sectionTitle {
+    text-align: left;
+}
+
+.about_details .sectionTitle h1 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    width: 70%;
+    text-transform: capitalize;
+}
+
+.about_details .sectionTitle p {
+    width: 60%;
+    text-align: justify;
+}
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(6, 135, 222);
+    color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.card_icon svg {
+    font-size: 2rem;
+}
+
+/* Review */
+
+.carousel_container {
+    color: #000;
+    position: relative;
+    height: 100vh;
+    border-radius: 0 0 15% 15% ;
+    background-color: #fff;
+    padding: 2% 12% 5%;
+}
+
+.review_card {
+    text-align: center;
+    max-width: 23rem;
+    height: 23rem;
+    margin: 2rem 0.5rem;
+    padding: 20px;
+    box-shadow: 0 0 15px ;
+    border-radius: 22px;
+    background-image: linear-gradient(to right, rgb(103, 190, 249), rgb(180, 217, 241));
+}
+
+.review_ {
+    margin: 4rem 0 3rem;
+}
+
+.review_title span {
+    border: 3px solid;
+    padding: 20px;
+    border-radius: 50%;
+    color: rgb(3, 37, 60);
+}
+
+.review_title h3 {
+    margin-top: 1.5rem;
+}
+
+/* Contact */
+
+#connect {
+    padding: 5% 12%;
+    background-color: rgb(6, 135, 222);
+    position: absolute;
+    top: 207rem;
+    z-index: -1;
+}
+
+.contactForm {
+    height: 35rem;
+    width: 100%;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+
+.input {
+    margin: 10px 0;
+}
+
+.input input {
+    height: 3rem;
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+}
+
+.input textarea {
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+}
+
+.submitBtn  {
+    text-align: center;
+}
+
+.submitBtn button {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #19A7CE;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.submitBtn button:hover {
+    transition: 500ms ease;
+    background-color: #13657c;
+}
+
+
+.contact_data .sectionTitle h1 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    width: 65%;
+    text-transform: capitalize;
+    text-align: left;
+    color: #fff;
+}
+
+.contact_data .sectionTitle p {
+    width: 80%;
+    text-align: justify;
+    color: #fff;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.alternate span {
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+}

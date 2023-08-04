@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.margin {
+  margin: 5% 12%;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.sectionTitle h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
